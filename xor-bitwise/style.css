@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: lightblue;
+}
+textarea {
+    width: 600px;
+    height: 100px;
+    margin: auto;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: center;
+    display: block;
+    resize: none;
+}
+div {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    overflow-wrap: break-word;
+    text-align: center;
+    display: block;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
