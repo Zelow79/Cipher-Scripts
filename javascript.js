@@ -1,5 +1,5 @@
 function cipher() {
-    const code = [420], //array of secret codes for encryption
+    const code = [304, 39, 57, 88, 20, 81, 66, 44, 101, 79], //array of secret codes for encryption
         word = document.getElementById("input").value;
 	if (!word) return null;
 
