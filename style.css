@@ -9,7 +9,7 @@ html, body {
     background-position: top;
 }
 input[type=number] {
-    width: 50px;
+    width: 45px;
 }
 textarea {
     width: 600px;
@@ -22,8 +22,6 @@ textarea {
     resize: none;
 }
 div {
-    width: 700px;
-    height: 300px;
     margin: auto;
     overflow-wrap: break-word;
     text-align: center;
@@ -38,6 +36,16 @@ div {
     display: table-cell;
     height: 100%;
     vertical-align: middle;
+}
+.info {
+    color: rgb(31, 31, 31);
+    font-size: 12px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(53, 53, 53);
+}
+.output {
+    width: 700px;
+    height: 300px;
 }
 #output {
     color: red;
