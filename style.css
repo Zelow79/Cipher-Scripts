@@ -3,6 +3,13 @@ html, body {
     width: 100%;
     margin: auto;
     background-color: lightblue;
+    background-image: url(assets/top_secret.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+input[type=number] {
+    width: 50px;
 }
 textarea {
     width: 600px;
@@ -15,8 +22,8 @@ textarea {
     resize: none;
 }
 div {
-    width: 600px;
-    height: 400px;
+    width: 700px;
+    height: 300px;
     margin: auto;
     overflow-wrap: break-word;
     text-align: center;
@@ -31,4 +38,9 @@ div {
     display: table-cell;
     height: 100%;
     vertical-align: middle;
+}
+#output {
+    color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }

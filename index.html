@@ -10,8 +10,19 @@
 <body>
     <div class="main">
     <div class="wrapper">
-    <textarea id="input" placeholder="Put text here that you want ciphered" oninput="cipher()" rows="4" cols="24" wrap="soft"></textarea><br>
-    <div id="output"></div>
+        <input type="number" id="c0" value="304">
+        <input type="number" id="c1" value="39">
+        <input type="number" id="c2" value="57">
+        <input type="number" id="c3" value="88">
+        <input type="number" id="c4" value="20">
+        <input type="number" id="c5" value="81">
+        <input type="number" id="c6" value="66">
+        <input type="number" id="c7" value="44">
+        <input type="number" id="c8" value="101">
+        <input type="number" id="c9" value="79"><br><br>
+        <textarea id="input" placeholder="Put text here that you want ciphered" oninput="cipher()" rows="4" cols="24" wrap="soft"></textarea><br>
+        <button onclick="copy2clip()">Copy Output</button><br><br>
+        <div id="output"></div>
     </div></div>
 </body>
 </html>

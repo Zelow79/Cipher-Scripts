@@ -1,6 +1,8 @@
 function cipher() {
-    const code = [304, 39, 57, 88, 20, 81, 66, 44, 101, 79], //array of secret codes for encryption
-        word = document.getElementById("input").value;
+    const gei = (id) => document.getElementById(id).value,
+		code = [gei("c0"), gei("c1"), gei("c2"), gei("c3"), gei("c4"), gei("c5"), gei("c6"), gei("c7"), gei("c8"), gei("c9")], //array of secret codes for encryption
+		word = document.getElementById("input").value;
+	console.log(code);
 	if (!word) return null;
 
 	function process(w, c) {
@@ -17,3 +19,7 @@ function cipher() {
     document.getElementById("output").innerHTML = result;
 	//return result;
 }
+
+function copy2clip() { //write the contents of output to clipboard
+	navigator.clipboard.writeText(document.getElementById("output").innerHTML);
+  }
