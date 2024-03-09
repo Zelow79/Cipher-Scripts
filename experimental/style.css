@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: lightblue;
+    background-image: url(assets/top_secret.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+input[type=number] {
+    width: 45px;
+}
+textarea {
+    width: 600px;
+    height: 100px;
+    margin: auto;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: center;
+    display: block;
+    resize: none;
+}
+div {
+    margin: auto;
+    overflow-wrap: break-word;
+    text-align: center;
+    display: block;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.info {
+    color: rgb(31, 31, 31);
+    font-size: 12px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(53, 53, 53);
+}
+.off {
+    display: none;
+}
+.eoutput {
+    width: 700px;
+    height: 300px;
+}
+.doutput {
+    width: 700px;
+    height: 300px;
+}
+#eoutput {
+    color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#doutput {
+    color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}

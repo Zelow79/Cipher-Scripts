@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <script src="javascript.js"></script>
+    <title>XOR Bitwise Cipher</title>
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <input type="number" id="code" oninput="cipher()" value="500"><br>
+            <div class="info">**notice: make sure that the code you use works both ways default code has been well tested and works**</div>
+            <textarea id="input" placeholder="Put text here that you want ciphered" oninput="cipher()" rows="4" cols="24" wrap="soft"></textarea><br>
+            <button onclick="toggleOutput()">Toggle Usage</button>
+            <div id="encryptedZone" class="">
+                <h1>Encrypted Output:</h1>
+                <button onclick="copy2clip('eoutput')">Copy Encrypted Output</button><br><br>
+                <div id="eoutput" class="eoutput"></div>
+            </div>
+            <div id="decryptedZone" class="off">
+                <h1>Decrypted Output:</h1>
+                <button onclick="copy2clip('doutput')">Copy Decrypted Output</button><br><br>
+                <div id="doutput" class="doutput"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
