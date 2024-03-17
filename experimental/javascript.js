@@ -1,8 +1,8 @@
 function cipher() {
 	if (!document.getElementById("eoutput").classList.contains("off"))
-		document.getElementById("eoutput").innerHTML = xorShift(trans(btoa(document.getElementById("input").value)));
+		document.getElementById("eoutput").innerHTML = xorShift(trans(btoa(document.getElementById("einput").value)));
 	if (!document.getElementById("doutput").classList.contains("off"))
-		document.getElementById("doutput").innerHTML = atob(trans(xorShift(document.getElementById("input").value)));
+		document.getElementById("doutput").innerHTML = atob(trans(xorShift(document.getElementById("dinput").value)));
 }
 
 function xorShift(word) {
