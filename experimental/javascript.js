@@ -1,7 +1,7 @@
 function cipher() {
-	if (!document.getElementById("eoutput").classList.contains("off"))
+	if (!document.getElementById("encryptedZone").classList.contains("off"))
 		document.getElementById("eoutput").innerHTML = xorShift(trans(btoa(document.getElementById("einput").value)));
-	if (!document.getElementById("doutput").classList.contains("off"))
+	if (!document.getElementById("decryptedZone").classList.contains("off"))
 		document.getElementById("doutput").innerHTML = atob(trans(xorShift(document.getElementById("dinput").value)));
 }
 
@@ -18,7 +18,7 @@ function xorShift(word) {
 }
 
 function trans(s) {
-	if (s.length % 4 > 0) return false;
+	if (s.length % 4 > 0) return console.log("Transpostion failed, not divisable by 4.");
 	const result = [],
 	  temp = s.split(""),
 	  newResult = [],
