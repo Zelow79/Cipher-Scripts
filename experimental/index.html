@@ -17,13 +17,13 @@
                 <textarea id="einput" placeholder="Put text here that you want encrypted" oninput="cipher()" rows="4" cols="24" wrap="soft"></textarea>
                 <h1>Encrypted:</h1>
                 <button onclick="copy2clip('eoutput')">Copy Output</button><br><br>
-                <div id="eoutput" class="eoutput"></div>
+                <textarea readonly id="eoutput" class="eoutput" rows="4" cols="24" wrap="soft"></textarea>
             </div>
             <div id="decryptedZone" class="off">
                 <textarea id="dinput" placeholder="Put text here that you want decrypted" oninput="cipher()" rows="4" cols="24" wrap="soft"></textarea>
                 <h1>Decrypted:</h1>
                 <button onclick="copy2clip('doutput')">Copy Output</button><br><br>
-                <div id="doutput" class="doutput"></div>
+                <textarea readonly id="doutput" class="doutput" rows="4" cols="24" wrap="soft"></textarea>
             </div>
         </div>
     </div>
