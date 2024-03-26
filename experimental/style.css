@@ -7,7 +7,7 @@ html, body {
     background-image: url(assets/top_secret.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 30% 5%;
+    background-position: 20% 0%;
 }
 input[type=number] {
     width: 53px;
@@ -46,11 +46,6 @@ div {
     display: table-cell;
     height: 100%;
     vertical-align: middle;
-}
-.info {
-    color: rgb(31, 31, 31);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(53, 53, 53);
 }
 .off {
     display: none;

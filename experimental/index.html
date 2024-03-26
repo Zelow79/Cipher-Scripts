@@ -11,8 +11,8 @@
 <body>
     <div class="main">
         <div class="wrapper">
-            <input type="number" id="code" oninput="cipher()" value="42069"> <button onclick="toggleOutput()">Toggle Usage</button><br>
-            <div class="info">**notice: Always dubble check to make sure you can decrypt your cypher**</div>
+            <input type="number" id="code" oninput="cipher()" value="42069" title="**notice: Always dubble check to make sure you can decrypt your cypher, not all numbers are safe as this value**"> 
+            <button onclick="toggleOutput()">Toggle Usage</button><br><br>
             <div id="encryptedZone" class="">
                 <textarea id="einput" placeholder="Text to be encrypted" oninput="cipher()" rows="4" cols="24" wrap="soft"></textarea>
                 <h1>Encrypted:</h1>
