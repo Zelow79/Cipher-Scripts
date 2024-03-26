@@ -1,25 +1,34 @@
 html, body {
     height: 100%;
     width: 100%;
+    font-size: 15px;
     margin: auto;
-    background-color: lightblue;
+    background-color: #FCF5E5;
     background-image: url(assets/top_secret.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top;
+    background-position: 30% 10%;
 }
 input[type=number] {
     width: 53px;
 }
 textarea {
-    width: 600px;
-    height: 100px;
+    margin-top: auto;
+    background-color: rgba(200, 200, 200, 0.3);
+    color: #000;
+    font-size: 20px;
+    width: 700px;
+    height: 150px;
     margin: auto;
     word-wrap: break-word;
     word-break: break-all;
     text-align: center;
     display: block;
     resize: none;
+}
+textarea::placeholder {
+    vertical-align: middle;
+    color: #aaa;
 }
 div {
     margin: auto;
@@ -28,7 +37,8 @@ div {
     display: block;
 }
 .main {
-    height: 100%;
+    padding-top: 2%;
+    height: 90%;
     width: 100%;
     display: table;
 }
@@ -39,34 +49,27 @@ div {
 }
 .info {
     color: rgb(31, 31, 31);
-    font-size: 12px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(53, 53, 53);
 }
 .off {
     display: none;
 }
-.eoutput {
-    width: 700px;
-    height: 300px;
-    border: 0px;
-    outline: 0px;
-    background-color: rgba(0, 0, 0, 0);
-}
-.doutput {
-    width: 700px;
-    height: 300px;
-    border: 0px;
-    outline: 0px;
-    background-color: rgba(0, 0, 0, 0);
-}
 #eoutput {
-    color: red;
+    width: 700px;
+    height: 300px;
+    border: 0px;
+    outline: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #f00;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #000;
 }
 #doutput {
-    color: red;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    width: 700px;
+    height: 300px;
+    border: 0px;
+    outline: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #060;
 }

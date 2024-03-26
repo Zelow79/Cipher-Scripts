@@ -14,16 +14,16 @@
             <input type="number" id="code" oninput="cipher()" value="42069"> <button onclick="toggleOutput()">Toggle Usage</button><br>
             <div class="info">**notice: Always dubble check to make sure you can decrypt your cypher**</div>
             <div id="encryptedZone" class="">
-                <textarea id="einput" placeholder="Put text here that you want encrypted" oninput="cipher()" rows="4" cols="24" wrap="soft"></textarea>
+                <textarea id="einput" placeholder="Text to be encrypted" oninput="cipher()" rows="4" cols="24" wrap="soft"></textarea>
                 <h1>Encrypted:</h1>
                 <button onclick="copy2clip('eoutput')">Copy Output</button><br><br>
-                <textarea readonly id="eoutput" class="eoutput" rows="4" cols="24" wrap="soft"></textarea>
+                <textarea readonly id="eoutput" rows="4" cols="24" wrap="soft"></textarea>
             </div>
             <div id="decryptedZone" class="off">
-                <textarea id="dinput" placeholder="Put text here that you want decrypted" oninput="cipher()" rows="4" cols="24" wrap="soft"></textarea>
+                <textarea id="dinput" placeholder="Text to be decrypted" oninput="cipher()" rows="4" cols="24" wrap="soft"></textarea>
                 <h1>Decrypted:</h1>
                 <button onclick="copy2clip('doutput')">Copy Output</button><br><br>
-                <textarea readonly id="doutput" class="doutput" rows="4" cols="24" wrap="soft"></textarea>
+                <textarea readonly id="doutput" rows="4" cols="24" wrap="soft"></textarea>
             </div>
         </div>
     </div>
