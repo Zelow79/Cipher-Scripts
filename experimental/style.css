@@ -7,7 +7,7 @@ html, body {
     background-image: url(assets/top_secret.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 30% 10%;
+    background-position: 30% 5%;
 }
 input[type=number] {
     width: 53px;
